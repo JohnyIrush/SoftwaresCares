@@ -1,0 +1,14 @@
+/*Application Height*/
+.Application-height{
+    height: 100vh;
+}
+
+/*header height*/
+.header-height{
+    height: 12.5vh;
+}
+
+/*Body height*/
+.body-height{
+    height: 75vh;
+}

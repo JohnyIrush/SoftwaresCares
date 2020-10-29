@@ -17,7 +17,9 @@
                     {{ __('You are logged in!') }}
                 </div>
             </div>
+            <Example></Example>
         </div>
     </div>
 </div>
+<example-component></example-component>
 @endsection

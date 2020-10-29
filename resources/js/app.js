@@ -2,14 +2,26 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+import {store} from './store.js'
 
+Vue.component('Example', require('./components/Example.vue').default);
+Vue.component('Productone', require('./components/Productone.vue').default);
+Vue.component('Producttwo', require('./components/Producttwo.vue').default);
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+/**
+ * Application componetns
+ * The SoftwaresCares Admin 
+ * control View
+ * */
 
-import vuetify from './plugins/vuetify.js'
+Vue.component('Application', require('./Themes/Application/Application.vue').default);
+
 
 
 const app = new Vue({
-    vuetify: vuetify,
+    store: store,
     el: '#app',
 });
+
+
+

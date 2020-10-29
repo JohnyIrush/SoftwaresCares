@@ -30,6 +30,7 @@
         "@fortawesome/fontawesome-free": "^5.15.1",
         "vue-router": "^3.4.7",
         "vuetify": "^2.3.14",
-        "vuetify-loader": "^1.6.0"
+        "vuetify-loader": "^1.6.0",
+        "vuex": "^3.5.1"
     }
 }

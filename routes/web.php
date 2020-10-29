@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,4 +18,11 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+/**
+ *Displays the Application View
+ *Application View is used by administrator
+ *To manage SoftwaresCares Application
+ */
+
+Route::get('SoftwaresCares','App\Http\Controllers\Themes\ApplicationController@Theme')->name('SoftwaresCares');
