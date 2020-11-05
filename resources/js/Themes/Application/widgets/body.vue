@@ -1,5 +1,5 @@
 <template>
-    <div id="body" class=" body-height" >
+    <div id="body" class="body-height" >
         
     </div>
 </template>

@@ -11,7 +11,8 @@ export const store = new Vuex.Store({
             {name:"Apple", price:60},
             {name:"Watermellon", price:80},
 
-        ]
+        ],
+
     },
     getters:{
         saleProducts: state =>{
@@ -29,6 +30,10 @@ export const store = new Vuex.Store({
                 state.products.forEach(product => {
                     product.price -= payload;
                 });
+        },
+        testEvent: (state)=>{
+            const Event = new Vue(); 
+            Event.$emit('test','1')
         }
     },
     actions: {
@@ -37,6 +42,9 @@ export const store = new Vuex.Store({
             setTimeout(() => {
                 context.commit('reducePrice',payload)
             }, 2000);
+        },
+        testEvent:(context) =>{
+            context.commit('testEvent');
         }
     }
 })

@@ -16,6 +16,24 @@ Vue.component('Producttwo', require('./components/Producttwo.vue').default);
 
 Vue.component('Application', require('./Themes/Application/Application.vue').default);
 
+// Import Application Theme  plugin classes
+/**
+ * Manages all the elements
+ * and components display
+ *  functionality
+*/
+import Display from './Themes/Application/plugins/Display/Display'
+Vue.prototype.$Display = new Display();
+
+
+//Events
+var Event = new Vue();
+window.Event = Event;
+
+//Check if functions are working
+import Checker from './Themes/Application/plugins/Display/Checker'
+Vue.prototype.$Checker = new Checker();
+
 
 
 const app = new Vue({

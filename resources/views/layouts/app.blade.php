@@ -20,13 +20,17 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div id="app">
+    <div id="app" >
         <main>
             @yield('content')
-        </main>
+        </main><s></s>
     </div>
     <!--styles-->
     <link href="{{ asset('css/Themes/application/dimensions.css') }}" rel="stylesheet">
     <link href="{{ asset('css/Themes/application/colors.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/Themes/application/positions.css') }}" rel="stylesheet">
+
+    <!--scripts-->
+    <script src="{{ asset('js/Themes/application/Theme.js') }}" defer></script>
 </body>
 </html>

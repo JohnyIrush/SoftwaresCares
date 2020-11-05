@@ -9,6 +9,28 @@
 }
 
 /*Body height*/
+
 .body-height{
     height: 75vh;
+}
+
+.body-width{
+    min-width: 75vh;
+}
+
+/*max-menu dimensions*/
+.max-menu-dimensions{
+    width: 25vh;
+    height: 100%;
+}
+
+/*muin-menu dimensions*/
+.min-menu-dimensions{
+    width: 12.5vh;
+    height: 100%;
+}
+
+.responsive-page{
+    overflow: hidden;
+    margin: 0;
 }
