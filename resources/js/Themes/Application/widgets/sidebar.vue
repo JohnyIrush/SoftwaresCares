@@ -1,6 +1,6 @@
 <template>
      <div id="sidebar" class="sidebar-position body-height">
-         <maxmenu  id="max-menu" class="max-menu-els" ></maxmenu>            
+         <minmenu  id="max-menu" class="max-menu-els" ></minmenu>       
      </div>
 </template>
 
@@ -10,7 +10,8 @@
 
 <script>
 //components imports
-import maxmenu from './menus/max-sidebar-menu'
+//import maxmenu from './menus/max-sidebar-menu'
+import minmenu from './menus/min-sidebar-menu'
 
 
 //classes imports
@@ -30,7 +31,7 @@ export default {
       }
   },
     components:{
-        maxmenu,
+        minmenu,
     },
 mounted() {
 

@@ -12,9 +12,9 @@ class WebController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function Theme()
     {
-        //
+      return view('Themes/Web/Web');
     }
 
     /**

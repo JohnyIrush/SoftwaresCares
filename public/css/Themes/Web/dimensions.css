@@ -1,0 +1,11 @@
+.web-header-height{
+    height: 25vh;
+}
+
+.web-footer-height{
+    height: 50vh;
+}
+
+#Web{
+    min-height: 100vh;
+}

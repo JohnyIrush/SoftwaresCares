@@ -6,10 +6,10 @@
          </div>
        </div>
        <div class="row">
-         <div class="col">
+         <div  class="col-1 ">
             <sidebar></sidebar>
          </div>
-         <div class="col">
+         <div  class="col-11 ">
             <Body></Body>
          </div>
        </div>

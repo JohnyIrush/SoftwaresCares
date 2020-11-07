@@ -35,8 +35,20 @@ import Checker from './Themes/Application/plugins/Display/Checker'
 Vue.prototype.$Checker = new Checker();
 
 
+//SoftwaresCares Web imports
+Vue.component('Web', require('./Themes/Web/Web.vue').default);
+
+//import routes from './routes.js';
+
+//import VueRouter from "vue-router";
+//Vue.use(VueRouter);
+//const router = new VueRouter({
+//    routes,
+//});
+
 
 const app = new Vue({
+    //router,
     store: store,
     el: '#app',
 });

@@ -21,16 +21,37 @@
 /*max-menu dimensions*/
 .max-menu-dimensions{
     width: 25vh;
-    height: 100%;
+    height: 75vh;
 }
 
 /*muin-menu dimensions*/
 .min-menu-dimensions{
-    width: 12.5vh;
+    width: 16.5vh;
     height: 100%;
 }
 
 .responsive-page{
     overflow: hidden;
     margin: 0;
+}
+
+/*sidebar and cpanel dimensions*/
+#sidebar-section{
+
+}
+
+#cpanel-section{
+
+}
+
+.cpanel-height{
+    height: 74vh;
+}
+
+.menu-row{
+    
+}
+
+.menu-buttons{
+    height: 21vh
 }

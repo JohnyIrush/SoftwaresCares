@@ -23,7 +23,7 @@
     <div id="app" >
         <main>
             @yield('content')
-        </main><s></s>
+        </main>
     </div>
     <!--styles-->
     <link href="{{ asset('css/Themes/application/dimensions.css') }}" rel="stylesheet">

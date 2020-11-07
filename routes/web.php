@@ -12,10 +12,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Auth::routes();
 
 
@@ -26,3 +22,10 @@ Auth::routes();
  */
 
 Route::get('SoftwaresCares','App\Http\Controllers\Themes\ApplicationController@Theme')->name('SoftwaresCares');
+
+/**
+ *This is the theme of
+ * SoftwaresCares website
+ */
+
+Route::get('/','App\Http\Controllers\Themes\WebController@Theme')->name('/');
