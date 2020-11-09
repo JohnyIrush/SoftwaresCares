@@ -8,6 +8,7 @@
       <div class="row">
         <div class="col-12">
              <HomePage></HomePage>
+             <router-view></router-view>
         </div>
       </div>
       <div class="row">
