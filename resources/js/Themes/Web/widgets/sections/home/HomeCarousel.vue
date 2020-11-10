@@ -7,13 +7,13 @@
   </ol>
   <div class="carousel-inner section-height">
     <div class="carousel-item active">
-      <img src="/Developement/Images/binary.jpg" class="d-block w-100" >
+      <img src="/Developement/Images/binary.jpg" class="d-block w-100 img-fluid" >
     </div>
     <div class="carousel-item">
-      <img src="/Developement/Images/cog-wheels.jpg" class="d-block w-100" >
+      <img src="/Developement/Images/cog-wheels.jpg" class="d-block w-100 img-fluid" >
     </div>
     <div class="carousel-item">
-      <img src="/Developement/Images/guidesolutions.jpg" class="d-block w-100" >
+      <img src="/Developement/Images/guidesolutions.jpg" class="d-block w-100 img-fluid" >
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

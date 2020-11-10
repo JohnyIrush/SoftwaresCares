@@ -1,4 +1,4 @@
 @extends('layouts/web')
 @section('content')
-<Web></Web>
+    <Web></Web>
 @endsection

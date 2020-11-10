@@ -1,14 +1,14 @@
 <template>
-    <div id="Web" class="bg-color-white container-fluid">
-      <div class="row">
+    <div id="Web" class="bg-color-white .container-fluid responsive-page">
+      <div class="row ">
         <div class="col-12">
          <WebHeader></WebHeader>
         </div>
       </div>
-      <div class="row">
+      <div class="row ">
         <div class="col-12">
-             <HomePage></HomePage>
-             <router-view></router-view>
+             <HomePage ></HomePage>
+             <router-view ></router-view>
         </div>
       </div>
       <div class="row">
