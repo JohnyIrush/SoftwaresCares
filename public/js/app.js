@@ -8200,7 +8200,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../../../node_mod
 
 
 // module
-exports.push([module.i, "\n.home-portfolio-height{\n  height: 150vh;\n}\n", ""]);
+exports.push([module.i, "\n.home-port-height{\n  height: 150vh;\n}\n", ""]);
 
 // exports
 
@@ -42500,7 +42500,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "div",
-      { staticClass: "col-12 home-portfolio-height bg-color-darkblue card" },
+      { staticClass: "col-12 home-port-height bg-color-darkblue card" },
       [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-12 rec-frame-height bg-color-red" }, [

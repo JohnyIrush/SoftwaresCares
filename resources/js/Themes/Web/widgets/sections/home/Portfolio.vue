@@ -1,5 +1,5 @@
 <template>
-  <div class="col-12 home-portfolio-height bg-color-darkblue card">
+  <div class="col-12 home-port-height bg-color-darkblue card">
   <div class="row">
     <div class="col-12 rec-frame-height bg-color-red">
         <h1 class="text-primary text-center">Portfolio</h1>
@@ -118,7 +118,7 @@ export default {
 </script>
 
 <style >
-    .home-portfolio-height{
+    .home-port-height{
       height: 150vh;
     }
 </style>
