@@ -1,5 +1,5 @@
 <template>
-<div id="HomeCarousel" class="carousel slide mt-3 mb-3 bg-color-white .container-fluid" data-ride="carousel">
+<div id="HomeCarousel" class="carousel slide mt-3 mb-1 bg-color-white .container-fluid" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

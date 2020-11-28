@@ -12,16 +12,16 @@
         <router-link class="nav-link" to="/">Home <span class="sr-only">(current)</span></router-link>
       </li>
       <li class="nav-item">
-        <router-link class="nav-link" to="/about">About Us</router-link>
+        <router-link class="nav-link" to="/about">About</router-link>
       </li>
       <li class="nav-item">
-        <router-link class="nav-link" to="/services">Our Services</router-link>
+        <router-link class="nav-link" to="/services">Services</router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="/contact">Contact Us</router-link>
       </li>
       <li class="nav-item">
-        <router-link class="nav-link" to="/privacypolicy">Privacy Policy</router-link>
+        <router-link class="nav-link" to="/privacypolicy">Technology</router-link>
       </li>
     </ul>
   </div>

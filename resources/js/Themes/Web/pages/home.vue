@@ -18,6 +18,13 @@
        <section>
            <div class="row ">
             <div class="col-12">
+               <Clients></Clients>
+            </div>
+           </div>
+       </section>
+       <section>
+           <div class="row mt-1  ">
+            <div class="col-12">
                <Portfolio></Portfolio>
             </div>
            </div>
@@ -26,13 +33,6 @@
            <div class="row ">
             <div class="col-12">
                <Team></Team>
-            </div>
-           </div>
-       </section>
-       <section>
-           <div class="row ">
-            <div class="col-12">
-               <Clients></Clients>
             </div>
            </div>
        </section>

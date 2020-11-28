@@ -1,8 +1,13 @@
 <template>
-  <div class=".container-fluid section-height">
-  <div class="row  mt-3 mb-3">
-      <div class="col-sm-4">
-    <div class="card">
+  <div class="col-12 mt-1 p-3 section-height bg-color-darkblue card">
+    <div class="row">
+      <div class="col-12 rec-frame-height bg-color-red">
+          <h1 class="text-primary text-center">Our Clients</h1>
+      </div>
+    </div>
+  <div class="row  mt-3 mb-3 justify-content-center">
+      <div class="col-sm-3">
+    <div class="card bg-color-dark">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -10,8 +15,8 @@
       </div>
     </div>
       </div>
-      <div class="col-sm-4">
-    <div class="card">
+      <div class="col-sm-3 justify-content-center">
+    <div class="card bg-color-dark">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -19,8 +24,8 @@
       </div>
     </div>
       </div>
-      <div class="col-sm-4">
-      <div class="card">
+      <div class="col-sm-3 justify-content-center">
+      <div class="card bg-color-dark">
         <div class="card-body">
           <h5 class="card-title">Special title treatment</h5>
           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -29,9 +34,9 @@
       </div>
       </div>
   </div>
-  <div class="row  mt-3 mb-3">
-      <div class="col-sm-4">
-    <div class="card">
+  <div class="row mb-3 justify-content-center">
+      <div class="col-sm-3">
+    <div class="card bg-color-dark">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -39,8 +44,8 @@
       </div>
     </div>
       </div>
-      <div class="col-sm-4">
-    <div class="card">
+      <div class="col-sm-3">
+    <div class="card bg-color-dark">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -48,8 +53,8 @@
       </div>
     </div>
       </div>
-      <div class="col-sm-4">
-      <div class="card">
+      <div class="col-sm-3">
+      <div class="card bg-color-dark">
         <div class="card-body">
           <h5 class="card-title">Special title treatment</h5>
           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -74,5 +79,7 @@ export default {
 </script>
 
 <style >
-    
+.home-portfolio-height{
+   height: 100vh;
+}  
 </style>
