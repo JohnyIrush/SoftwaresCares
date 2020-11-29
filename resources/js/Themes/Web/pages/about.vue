@@ -18,7 +18,7 @@
        <section>
            <div class="row">
             <div class="col-12">
-
+              <Process></Process>
             </div>
            </div>
        </section>
@@ -42,6 +42,7 @@
 
 import AboutCarousel from '../widgets/sections/about/AboutCarousel'
 import About from '../widgets/sections/about/About'
+import Process from '../widgets/sections/about/Process'
 
 
 export default {
@@ -50,7 +51,8 @@ export default {
   },
     components:{
         AboutCarousel,
-        About
+        About,
+        Process
     }
 
 }

@@ -7,7 +7,7 @@
       </div>
       <div class="row ">
         <div class="col-12">
-             <HomePage ></HomePage>
+             <!--<HomePage ></HomePage>-->
              <router-view ></router-view>
         </div>
       </div>

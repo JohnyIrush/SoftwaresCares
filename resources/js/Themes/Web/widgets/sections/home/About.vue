@@ -1,5 +1,5 @@
 <template>
-    <div class="col-12 mt-1 home-about-height bg-color-darkblue card" >
+    <div class="col-12 home-about-height bg-color-darkblue card" >
         <div class="row mt-4 m-2 about-min-sections card mini-section-height pt-2 pb-2">
           <div class="col-12">
             <div class="row">
