@@ -1,5 +1,5 @@
 <template>
-         <div class="col-12 mt-1 p-3 About-about-height bg-color-darkblue card ">
+         <div class="col-12 mt-1 About-about-height bg-color-darkblue card ">
              <!--about-->
              <div class="row slide-in-up">
                  <div class="col-12 rec-frame-height bg-color-red">

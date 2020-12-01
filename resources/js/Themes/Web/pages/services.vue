@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid">
+    <div class=".container-fluid">
        <!--Home page Hero image section-->
        <section>
          <div id="home-hero" class="row bg-color-white">
@@ -17,13 +17,14 @@
        <section>
            <div class="row">
             <div class="col-12">
-               <Services></Services>
+               <Activity></Activity>
             </div>
            </div>
        </section>
        <section>
            <div class="row">
             <div class="col-12">
+             <Services></Services>
             </div>
            </div>
        </section>
@@ -48,6 +49,7 @@
 
 import ServicesCarousel from '../widgets/sections/services/ServicesCarousel'
 import Services from '../widgets/sections/services/Services'
+import Activity from "../widgets/sections/services/Activity";
 
 
 export default {
@@ -57,6 +59,7 @@ export default {
     components:{
         ServicesCarousel,
         Services,
+        Activity
 
     }
 

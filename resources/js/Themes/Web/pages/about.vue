@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid">
+    <div class=".container-fluid">
        <!--Home page Hero image section-->
        <section>
          <div id="home-hero" class="row bg-color-white">

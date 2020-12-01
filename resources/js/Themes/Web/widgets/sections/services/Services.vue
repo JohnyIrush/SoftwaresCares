@@ -1,30 +1,32 @@
 <template>
-    <div class="section-height" >
-        <div class="row mini-section-height pt-2 pb-2">
-          <div class="col-6">
-              <img src="/Developement/Images/keyboard.jpg" class="img-fluid image-height" alt="" srcset="">
-          </div>
-          <div class="col-6">
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos laudantium ducimus sit, quisquam unde natus? Dolor quos ullam nostrum quae, aspernatur ex optio, dolore cumque architecto, eius odit inventore! Obcaecati, amet magni possimus est ipsum similique velit id dolor asperiores nemo laborum corrupti quo at eaque? Ipsam, cumque. Recusandae fugit,  </p>
-          </div>
-        </div>
-        <div class="row mini-section-height pt-2 pb-2">
-          <div class="col-6">
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos laudantium ducimus sit, quisquam unde natus? Dolor quos ullam nostrum quae, aspernatur ex optio, dolore cumque architecto, eius odit inventore! Obcaecati, amet magni possimus est ipsum similique velit id dolor asperiores nemo laborum corrupti quo at eaque? Ipsam, cumque. Recusandae fugit,  </p>
-          </div>
-          <div class="col-6">
-              <img src="/Developement/Images/guidesolutions.jpg" class="img-fluid image-height" alt="" srcset="">
-          </div>
-        </div>
-        <div class="row mini-section-height pt-2 pb-2">
-          <div class="col-6">
-              <img src="/Developement/Images/question-mark.jpg" class="img-fluid image-height" alt="" srcset="">
-          </div>
-          <div class="col-6">
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quos laudantium ducimus sit, quisquam unde natus? Dolor quos ullam nostrum quae, aspernatur ex optio, dolore cumque architecto, eius odit inventore! Obcaecati, amet magni possimus est ipsum similique velit id dolor asperiores nemo laborum corrupti quo at eaque? Ipsam, cumque. Recusandae fugit,  </p>
-          </div>
-        </div>
+  <div class="col-12 mt-1  services-height bg-color-darkblue card">
+    <div class="row">
+      <div class="col-12 rec-frame-height bg-color-red">
+          <h1 class="text-primary">Services</h1>
+      </div>
     </div>
+   <sixD></sixD>
+  <div class="row  mt-3 mb-3 justify-content-center">
+      <div class="col-sm-7 services-height fixed-bg-img img-fluid">
+           
+      </div>
+      <div class="col-sm-5">
+       <div class="card bg-color-dark">
+         <div class="card-body text-white">
+          <ul class="list-group list-group-flush bg-color-dark">
+            <li class="list-group-item bg-color-dark"> <i class="fa fa-check fa-2x text-primary" aria-hidden="true"></i> Cras justo odio</li>
+            <li class="list-group-item bg-color-dark"> <i class="fa fa-check fa-2x text-primary" aria-hidden="true"></i> Dapibus ac facilisis in</li>
+            <li class="list-group-item bg-color-dark"> <i class="fa fa-check fa-2x text-primary" aria-hidden="true"></i> Morbi leo risus</li>
+            <li class="list-group-item bg-color-dark"> <i class="fa fa-check fa-2x text-primary" aria-hidden="true"></i> Porta ac consectetur ac</li>
+            <li class="list-group-item bg-color-dark"> <i class="fa fa-check fa-2x text-primary" aria-hidden="true"></i> Vestibulum at eros</li>
+            <li class="list-group-item bg-color-dark"> <i class="fa fa-check fa-2x text-primary" aria-hidden="true"></i> Cras justo odio</li>
+            <li class="list-group-item bg-color-dark"> <i class="fa fa-check fa-2x text-primary" aria-hidden="true"></i> Dapibus ac facilisis in</li>
+          </ul>
+         </div>
+       </div>
+      </div>
+  </div>
+  </div>  
 </template>
 
 
@@ -35,6 +37,13 @@ export default {
 </script>
 
 <style>
+.services-height{
+    height: 100vh;
+}
 
-
+.fixed-bg-img{
+  background-image: url("/Developement/Images/binary.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="col-12 home-about-height bg-color-darkblue card" >
-        <div class="row mt-4 m-2 about-min-sections card mini-section-height pt-2 pb-2">
+        <div class="row mt-4 m-2 about-min-sections card mini-section-height pb-2">
           <div class="col-12">
             <div class="row">
              <div class="col-12 rec-frame-height bg-color-red">
@@ -17,7 +17,7 @@
             </div>
           </div>
         </div>
-        <div class="row mt-4 m-2 about-min-sections card mini-section-height pt-2 pb-2">
+        <div class="row mt-4 m-2 about-min-sections card mini-section-height  pb-2">
           <div class="col-12">
             <div class="row">
               <div class="col-12 rec-frame-height bg-color-red">
@@ -34,7 +34,7 @@
             </div>
           </div>
         </div>
-        <div class="row mt-4 m-2 about-min-sections card mini-section-height pt-2 pb-2">
+        <div class="row mt-4 m-2 about-min-sections card mini-section-height  pb-2">
           <div class="col-12">
             <div class="row">
               <div class="col-12 rec-frame-height bg-color-red">

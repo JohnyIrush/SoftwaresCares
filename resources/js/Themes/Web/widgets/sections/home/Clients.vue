@@ -1,5 +1,5 @@
 <template>
-  <div class="col-12 mt-1 p-3 section-height bg-color-darkblue card">
+  <div class="col-12 mt-1 section-height bg-color-darkblue card">
     <div class="row">
       <div class="col-12 rec-frame-height bg-color-red">
           <h1 class="text-primary text-center">Our Clients</h1>
