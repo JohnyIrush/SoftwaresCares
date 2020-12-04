@@ -3,14 +3,14 @@
        <section>
          <div  class="row bg-color-white">
             <div class="col-12">
-                <contactForm></contactForm>
+                <contactCarousel></contactCarousel>
             </div> 
          </div>
        </section>
        <section>
            <div class="row">
             <div class="col-12">
-
+              <contactForm></contactForm>
             </div>
            </div>
        </section>
@@ -40,16 +40,21 @@
 <script>
 
 import contactForm from '../widgets/sections/contact/ContactForm'
+import contactCarousel from '../widgets/sections/contact/ContactCarousel'
 
 
 
 export default {
     components:{
-       contactForm
+       contactForm,
+       contactCarousel
     },
 
   methods: {
 
+  },
+  mounted(){
+      alert('contact');
   }
 
 }

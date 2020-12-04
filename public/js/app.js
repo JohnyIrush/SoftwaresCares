@@ -2375,6 +2375,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _widgets_sections_contact_ContactForm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../widgets/sections/contact/ContactForm */ "./resources/js/Themes/Web/widgets/sections/contact/ContactForm.vue");
+/* harmony import */ var _widgets_sections_contact_ContactCarousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../widgets/sections/contact/ContactCarousel */ "./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue");
 //
 //
 //
@@ -2415,11 +2416,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    contactForm: _widgets_sections_contact_ContactForm__WEBPACK_IMPORTED_MODULE_0__["default"]
+    contactForm: _widgets_sections_contact_ContactForm__WEBPACK_IMPORTED_MODULE_0__["default"],
+    contactCarousel: _widgets_sections_contact_ContactCarousel__WEBPACK_IMPORTED_MODULE_1__["default"]
   },
-  methods: {}
+  methods: {},
+  mounted: function mounted() {
+    alert('contact');
+  }
 });
 
 /***/ }),
@@ -3159,6 +3165,48 @@ __webpack_require__.r(__webpack_exports__);
   },
   props: {}
 });
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -41222,6 +41270,12 @@ var render = function() {
   return _c("div", { staticClass: "container-fluid" }, [
     _c("section", [
       _c("div", { staticClass: "row bg-color-white" }, [
+        _c("div", { staticClass: "col-12" }, [_c("contactCarousel")], 1)
+      ])
+    ]),
+    _vm._v(" "),
+    _c("section", [
+      _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-12" }, [_c("contactForm")], 1)
       ])
     ]),
@@ -41230,20 +41284,10 @@ var render = function() {
     _vm._v(" "),
     _vm._m(1),
     _vm._v(" "),
-    _vm._m(2),
-    _vm._v(" "),
-    _vm._m(3)
+    _vm._m(2)
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", [
-      _c("div", { staticClass: "row" }, [_c("div", { staticClass: "col-12" })])
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -41812,6 +41856,22 @@ var staticRenderFns = [
                 "li",
                 {
                   staticClass:
+                    "spinner-border nav-item process-spinners  text-white",
+                  attrs: { role: "status" }
+                },
+                [_c("span", { staticClass: "sr-only" }, [_vm._v("Loading...")])]
+              ),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c("h4", { staticClass: "text-white" }, [_vm._v("Define")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("nav", { staticClass: "col nav flex-column" }, [
+              _c(
+                "li",
+                {
+                  staticClass:
                     "spinner-border nav-item process-spinners  text-secondary",
                   attrs: { role: "status" }
                 },
@@ -41868,22 +41928,6 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("li", { staticClass: "nav-item" }, [
                 _c("h4", { staticClass: "text-danger" }, [_vm._v("Deliver")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("nav", { staticClass: "col nav flex-column" }, [
-              _c(
-                "li",
-                {
-                  staticClass:
-                    "spinner-border nav-item process-spinners  text-primary",
-                  attrs: { role: "status" }
-                },
-                [_c("span", { staticClass: "sr-only" }, [_vm._v("Loading...")])]
-              ),
-              _vm._v(" "),
-              _c("li", { staticClass: "nav-item" }, [
-                _c("h4", { staticClass: "text-primary" }, [_vm._v("Discover")])
               ])
             ])
           ])
@@ -42507,6 +42551,131 @@ var staticRenderFns = [
         ])
       ])
     ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue?vue&type=template&id=0fc584fc&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue?vue&type=template&id=0fc584fc& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "carousel slide mt-1 mb-1 bg-color-white .container-fluid",
+        attrs: { id: "HomeCarousel", "data-ride": "carousel" }
+      },
+      [
+        _c("ol", { staticClass: "carousel-indicators" }, [
+          _c("li", {
+            staticClass: "active",
+            attrs: {
+              "data-target": "#carouselExampleIndicators",
+              "data-slide-to": "0"
+            }
+          }),
+          _vm._v(" "),
+          _c("li", {
+            attrs: {
+              "data-target": "#carouselExampleIndicators",
+              "data-slide-to": "1"
+            }
+          }),
+          _vm._v(" "),
+          _c("li", {
+            attrs: {
+              "data-target": "#carouselExampleIndicators",
+              "data-slide-to": "2"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "carousel-inner section-height" }, [
+          _c("div", { staticClass: "carousel-item active" }, [
+            _c("img", {
+              staticClass: "d-block w-100 img-fluid",
+              attrs: { src: "/Developement/Images/binary.jpg" }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "carousel-item" }, [
+            _c("img", {
+              staticClass: "d-block w-100 img-fluid",
+              attrs: { src: "/Developement/Images/cog-wheels.jpg" }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "carousel-item" }, [
+            _c("img", {
+              staticClass: "d-block w-100 img-fluid",
+              attrs: { src: "/Developement/Images/guidesolutions.jpg" }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "carousel-control-prev",
+            attrs: {
+              href: "#carouselExampleIndicators",
+              role: "button",
+              "data-slide": "prev"
+            }
+          },
+          [
+            _c("span", {
+              staticClass: "carousel-control-prev-icon",
+              attrs: { "aria-hidden": "true" }
+            }),
+            _vm._v(" "),
+            _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "carousel-control-next",
+            attrs: {
+              href: "#carouselExampleIndicators",
+              role: "button",
+              "data-slide": "next"
+            }
+          },
+          [
+            _c("span", {
+              staticClass: "carousel-control-next-icon",
+              attrs: { "aria-hidden": "true" }
+            }),
+            _vm._v(" "),
+            _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
+          ]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -62513,6 +62682,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue":
+/*!******************************************************************************!*\
+  !*** ./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ContactCarousel_vue_vue_type_template_id_0fc584fc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ContactCarousel.vue?vue&type=template&id=0fc584fc& */ "./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue?vue&type=template&id=0fc584fc&");
+/* harmony import */ var _ContactCarousel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ContactCarousel.vue?vue&type=script&lang=js& */ "./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ContactCarousel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ContactCarousel_vue_vue_type_template_id_0fc584fc___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ContactCarousel_vue_vue_type_template_id_0fc584fc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactCarousel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ContactCarousel.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactCarousel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue?vue&type=template&id=0fc584fc&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue?vue&type=template&id=0fc584fc& ***!
+  \*************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactCarousel_vue_vue_type_template_id_0fc584fc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ContactCarousel.vue?vue&type=template&id=0fc584fc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Themes/Web/widgets/sections/contact/ContactCarousel.vue?vue&type=template&id=0fc584fc&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactCarousel_vue_vue_type_template_id_0fc584fc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactCarousel_vue_vue_type_template_id_0fc584fc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/Themes/Web/widgets/sections/contact/ContactForm.vue":
 /*!**************************************************************************!*\
   !*** ./resources/js/Themes/Web/widgets/sections/contact/ContactForm.vue ***!
@@ -63664,7 +63902,7 @@ __webpack_require__.r(__webpack_exports__);
   path: '/services',
   component: _Themes_Web_pages_services_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
 }, {
-  path: 'contact',
+  path: '/contact',
   component: _Themes_Web_pages_contact_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
 }, {
   path: '/privacypolicy',

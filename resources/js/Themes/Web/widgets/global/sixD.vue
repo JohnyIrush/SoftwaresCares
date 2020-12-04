@@ -11,6 +11,14 @@
        </li>
       </nav>
       <nav class="col nav flex-column">
+       <li class="spinner-border nav-item process-spinners  text-white" role="status">
+         <span class="sr-only">Loading...</span>
+       </li>
+       <li class="nav-item">
+         <h4 class="text-white">Define</h4>
+       </li>
+      </nav>
+      <nav class="col nav flex-column">
        <li class="spinner-border nav-item process-spinners  text-secondary" role="status">
          <span class="sr-only">Loading...</span>
        </li>
@@ -40,14 +48,6 @@
        </li>
        <li class="nav-item">
          <h4 class="text-danger">Deliver</h4>
-       </li>
-      </nav>
-      <nav class="col nav flex-column">
-       <li class="spinner-border nav-item process-spinners  text-primary" role="status">
-         <span class="sr-only">Loading...</span>
-       </li>
-       <li class="nav-item">
-         <h4 class="text-primary">Discover</h4>
        </li>
       </nav>
       </div>

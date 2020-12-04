@@ -14,7 +14,7 @@ export default [
         component: services,
     },
     {
-        path: 'contact',
+        path: '/contact',
         component: contact
     },
     {
