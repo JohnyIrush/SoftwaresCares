@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid">
+    <div class=".container-fluid">
        <section>
          <div  class="row bg-color-white">
             <div class="col-12">
@@ -54,7 +54,7 @@ export default {
 
   },
   mounted(){
-      alert('contact');
+
   }
 
 }

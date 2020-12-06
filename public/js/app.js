@@ -2423,9 +2423,7 @@ __webpack_require__.r(__webpack_exports__);
     contactCarousel: _widgets_sections_contact_ContactCarousel__WEBPACK_IMPORTED_MODULE_1__["default"]
   },
   methods: {},
-  mounted: function mounted() {
-    alert('contact');
-  }
+  mounted: function mounted() {}
 });
 
 /***/ }),
@@ -3219,7 +3217,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -41267,7 +41264,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container-fluid" }, [
+  return _c("div", { staticClass: ".container-fluid" }, [
     _c("section", [
       _c("div", { staticClass: "row bg-color-white" }, [
         _c("div", { staticClass: "col-12" }, [_c("contactCarousel")], 1)
@@ -42706,12 +42703,12 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-12 " }, [
+    return _c("div", { staticClass: "col-12 mt-1  bg-color-darkblue card " }, [
       _c("div", { staticClass: "row justify-content-center mt-1" }, [
         _c("div", { staticClass: "col-sm-12" }, [
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col text-center" }, [
-              _c("h1", { staticClass: "display-4 headings" }, [
+              _c("h1", { staticClass: "display-4 text-primary" }, [
                 _c("strong", [_vm._v("Find Us")])
               ])
             ])
@@ -42720,21 +42717,19 @@ var staticRenderFns = [
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col-sm-12 col-lg-6" }, [
               _c("div", { staticClass: "row" }, [
-                _c("h5", { staticClass: "col headings text-center" }, [
+                _c("h5", { staticClass: "col text-primary text-center" }, [
                   _vm._v("Let us contact You")
                 ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "card card-body Themes2" }, [
+              _c("div", { staticClass: "card card-body bg-color-dark" }, [
                 _c(
                   "div",
                   { staticClass: "card-title text-center text-white" },
                   [
                     _c("h2", { staticClass: "text-capitalize" }, [
-                      _vm._v("new to bootstrap?")
+                      _vm._v("Leave Us Your Contact")
                     ]),
-                    _vm._v(" "),
-                    _c("p", [_vm._v("Contact US")]),
                     _vm._v(" "),
                     _c("form", [
                       _c("div", { staticClass: "input-group my-3" }, [
@@ -42860,7 +42855,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-sm-12 col-lg-6" }, [
+            _c("div", { staticClass: "col-sm-12 col-lg-6 bg-color-dark" }, [
               _c("div", { staticClass: "row" }, [
                 _c("div", { staticClass: "col" }, [
                   _c("h5", { staticClass: "headings text-center" }, [

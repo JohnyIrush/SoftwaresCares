@@ -1,22 +1,21 @@
 <template>
-  <div class="col-sm-12 ">
+  <div class="col-12 mt-1  bg-color-darkblue card ">
          <!--contact-->
            <div class="row justify-content-center mt-1">
              <div class="col-sm-12">
                <div class="row">
                  <div class="col text-center">
-                   <h1 class="display-4 headings"><strong>Find Us</strong></h1>
+                   <h1 class="display-4 text-primary"><strong>Find Us</strong></h1>
                  </div>
                </div>
                <div class="row">
                  <div class="col-sm-12 col-lg-6">
                  <div class="row">
-                   <h5 class="col headings text-center">Let us contact You</h5>
+                   <h5 class="col text-primary text-center">Let us contact You</h5>
                  </div>
-                 <div class="card card-body Themes2">
+                 <div class="card card-body bg-color-dark">
                    <div class="card-title text-center text-white">
-                    <h2 class="text-capitalize">new to bootstrap?</h2>
-                     <p>Contact US</p>
+                    <h2 class="text-capitalize">Leave Us Your Contact</h2>
                        <form>
                         <!--font-awesome-->
                         <div class="input-group my-3">
@@ -77,7 +76,7 @@
                        </div>
                      </div>
                      </div>
-                 <div class="col-sm-12 col-lg-6">
+                 <div class="col-sm-12 col-lg-6 bg-color-dark">
                    <div class="row">
                      <div class="col"> 
                        <h5 class="headings text-center">Our Location</h5>
