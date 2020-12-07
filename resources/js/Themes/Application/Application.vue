@@ -10,6 +10,7 @@
             <sidebar></sidebar>
          </div>
          <div  class="col-11 ">
+           <mainCollapsibleSidebar></mainCollapsibleSidebar>
             <Body></Body>
          </div>
        </div>
@@ -26,12 +27,14 @@ import Header from './widgets/header';
 import Footer from './widgets/footer';
 import Body from './widgets/body';
 import sidebar from './widgets/sidebar'
+import mainCollapsibleSidebar from "./widgets/global/collapseSideBar";
 export default {
     components:{
         Header,
         Footer,
         Body,
-        sidebar
+        sidebar,
+        mainCollapsibleSidebar
     },
   watch: {
   },

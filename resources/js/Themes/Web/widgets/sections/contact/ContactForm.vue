@@ -4,8 +4,8 @@
            <div class="row justify-content-center mt-1">
              <div class="col-sm-12">
                <div class="row">
-                 <div class="col text-center">
-                   <h1 class="display-4 text-primary"><strong>Find Us</strong></h1>
+                 <div class="col-12 rec-frame-height bg-color-red">
+                     <h1 class="text-primary text-center">Find Us</h1>
                  </div>
                </div>
                <div class="row">

@@ -35,15 +35,6 @@
     margin: 0;
 }
 
-/*sidebar and cpanel dimensions*/
-#sidebar-section{
-
-}
-
-#cpanel-section{
-
-}
-
 .cpanel-height{
     height: 74vh;
 }
@@ -54,4 +45,9 @@
 
 .menu-buttons{
     height: 21vh
+}
+
+/**Main Sidebar*/
+.main-collapsible-sidebar {
+    height: 150vh;
 }

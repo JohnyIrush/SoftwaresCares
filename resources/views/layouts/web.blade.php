@@ -18,13 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-</head>
-<body>
-    <div id="app" class=".container-fluid" >
-        <main>
-            @yield('content')
-        </main>
-    </div>
+
     <!--styles-->
     <!--Application styles-->
     <link href="{{ asset('css/Themes/Application/dimensions.css') }}" rel="stylesheet">
@@ -38,6 +32,14 @@
     <link href="{{ asset('css/Themes/Web/positions.css') }}" rel="stylesheet">
 
     <!--scripts-->
+</head>
+<body>
+    <div id="app" class=".container-fluid" >
+        <main>
+            @yield('content')
+        </main>
+    </div>
+
 
 </body>
 </html>

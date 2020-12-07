@@ -9,6 +9,7 @@
         <div class="col-12">
              <!--<HomePage ></HomePage>-->
              <router-view ></router-view>
+             <mainCollapsibleSidebar></mainCollapsibleSidebar>
         </div>
       </div>
       <div class="row">
@@ -24,11 +25,13 @@
 import WebHeader from './widgets/Header';
 import WebFooter from './widgets/Footer';
 import HomePage from './pages/home'
+import mainCollapsibleSidebar from "../Application/widgets/global/collapseSideBar"
 export default {
     components:{
        WebHeader,
        WebFooter,
-       HomePage
+       HomePage,
+       mainCollapsibleSidebar
     },
   watch: {
   },
