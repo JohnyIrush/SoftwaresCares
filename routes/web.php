@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,3 +31,14 @@ Route::get('SoftwaresCares','App\Http\Controllers\Themes\ApplicationController@T
  */
 
 Route::get('/','App\Http\Controllers\Themes\WebController@Theme')->name('/');
+
+
+/**
+ * Library Plugin -> Handles Media storage 
+ * For The superblog package but can also
+ * be used to manage the application storage
+ * Media(video, audio, text files) -> All 
+ * uploads
+*/
+
+Route::get('media','App\Http\Controllers\LibraryController@media')->name('media');
