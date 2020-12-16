@@ -20,7 +20,7 @@
         <router-link class="nav-link" to="/SoftwaresCares/contact">Contact Us</router-link>
       </li>
       <li class="nav-item">
-        <router-link class="nav-link" to="/SoftwaresCares/privacypolicy">Technology</router-link>
+        <router-link class="nav-link" to="/SoftwaresCares/technology">Technology</router-link>
       </li>
     </ul>
   </div>

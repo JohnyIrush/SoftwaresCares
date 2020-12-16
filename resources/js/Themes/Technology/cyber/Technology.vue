@@ -21,8 +21,8 @@
 </template>
 
 <script>
-import Header from './widgets/Header';
-import mainCollapsibleSidebar from "../Application/widgets/global/collapseSideBar"
+import Header from '../widgets/Header';
+import mainCollapsibleSidebar from "../../Application/widgets/global/collapseSideBar"
 export default {
     components:{
        mainCollapsibleSidebar,
