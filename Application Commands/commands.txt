@@ -1,0 +1,24 @@
+php artisan make:controller Controller -r
+php artisan serve
+php artisan model:MediaFile -m
+php artisan make:seed ImagesSeeder
+php artisan db:seed
+
+Composer dump-autoload
+
+php artisan migrate:fresh
+php artisan cache:clear
+php artisan config:clear
+php artisan config:cache
+php artisan vendor:publish --tag=public --force
+php artisan vendor:publish --tag=superblog-components --force
+
+npm run watch
+
+npm install vue-sweetalert2
+
+php artisan storage:link
+
+composer require softwarescares/superblog
+
+composer install

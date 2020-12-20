@@ -41,4 +41,3 @@ Route::get('/','App\Http\Controllers\Themes\WebController@Theme')->name('/');
  * uploads
 */
 
-Route::get('media','App\Http\Controllers\LibraryController@media')->name('media');

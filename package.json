@@ -31,6 +31,10 @@
         "vue-router": "^3.4.7",
         "vuetify": "^2.3.14",
         "vuetify-loader": "^1.6.0",
-        "vuex": "^3.5.1"
+        "vuex": "^3.5.1",
+        "laravel-vue-pagination": "^2.3.1",
+        "tiptap": "^1.30.0",
+        "vue-sweetalert2": "^3.0.6",
+        "vue-toast-notification": "^0.5.0"
     }
 }
