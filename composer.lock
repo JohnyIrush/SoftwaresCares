@@ -2257,12 +2257,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JohnyIrush/softwarescares-superblog.git",
-                "reference": "0bb37a0a5753b88c60b1fbbf47b982f91a984c7b"
+                "reference": "90139cec9fa6a6be3d56a41e9243feb58b9c00dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JohnyIrush/softwarescares-superblog/zipball/0bb37a0a5753b88c60b1fbbf47b982f91a984c7b",
-                "reference": "0bb37a0a5753b88c60b1fbbf47b982f91a984c7b",
+                "url": "https://api.github.com/repos/JohnyIrush/softwarescares-superblog/zipball/90139cec9fa6a6be3d56a41e9243feb58b9c00dd",
+                "reference": "90139cec9fa6a6be3d56a41e9243feb58b9c00dd",
                 "shasum": ""
             },
             "default-branch": true,
@@ -2291,7 +2291,7 @@
                 "issues": "https://github.com/JohnyIrush/softwarescares-superblog/issues",
                 "source": "https://github.com/JohnyIrush/softwarescares-superblog/tree/main"
             },
-            "time": "2020-12-20T06:17:30+00:00"
+            "time": "2020-12-20T08:35:25+00:00"
         },
         {
             "name": "spatie/laravel-permission",

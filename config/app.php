@@ -167,7 +167,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        SoftwaresCares\SuperBlog\SuperblogServiceProvider::class,
         /*
          * Application Service Providers...
          */
