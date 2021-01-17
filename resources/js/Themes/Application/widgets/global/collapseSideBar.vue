@@ -11,9 +11,9 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                 <!--manage products-->
+                 <!--manage Application-->
                  <ul class="list-unstyled"> 
-                  <p  class="heading-color mb-3 link-sb-style link-size text-primary"  role="button" aria-expanded="false" > <i class="fa fa-user text-primary" aria-hidden="true"></i> Admin </p>
+                  <a href="/SoftwaresCares"  class="heading-color mb-3 link-sb-style link-size text-primary"  role="button" aria-expanded="false" > <i class="fa fa-user text-primary" aria-hidden="true"></i> Admin </a>
                   <hr class="bg-white">
                      <a href=""  class="heading-color link-sb-style link-size" role="button"> Dashboard</a>
                      <hr class="bg-white">

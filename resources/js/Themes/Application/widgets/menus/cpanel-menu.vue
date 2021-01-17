@@ -19,7 +19,7 @@
           <div class="col-sm-3 menu-buttons">
             <div class="card menu-buttons bg-primary">
               <div class="card-body">
-                <a href="/" type="button" class="btn btn-outline-danger">CMS</a>
+                <a href="/cms" type="button" class="btn btn-outline-danger">CMS</a>
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@
           <div class="col-sm-3 menu-buttons">
                <div class="card menu-buttons bg-primary">
                  <div class="card-body">
-                   <a href="/" type="button" class="btn btn-outline-danger">Library</a>
+                   <a href="/medialibrary" type="button" class="btn btn-outline-danger">Library</a>
                  </div>
                </div>
           </div>
